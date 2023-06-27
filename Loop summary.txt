@@ -1,0 +1,35 @@
+#To do something with each element of a list,run for loop
+#To run a loop based on a condition run a while loop
+#To stop a loop immediately based on a condition, use the break keyboard
+#To skip iteration based on a condition, use the continue keyboard
+
+*for loop vs while loop*
+
+The while loop executes a block of code repeatedly as long as a specified condition remains true. It relies on the evaluation of a condition to determine whether
+ to continue iterating or exit the loop. The loop will keep running as long as the condition is true.
+
+The for loop, on the other hand, is specifically designed for iterating over a known sequence or collection of elements. It iterates through the elements
+ in the sequence one by one until all elements have been processed. The loop iterates a fixed number of times based on the length of the sequence.
+
+Here's a summary:
+
+*While Loop*:
+
+/Executes as long as a given condition is true.
+/Condition is evaluated before each iteration.
+/Useful when the number of iterations is uncertain or depends on dynamic conditions.
+/Requires manual control of loop variables and condition updates.
+*For Loop*:
+
+/Executes a fixed number of times based on the length of a sequence.
+/Automatically iterates over the elements in a sequence.
+/Suitable for iterating over known collections or sequences.
+/Simplifies iteration and eliminates the need for manual loop control.
+/In essence, the while loop gives you more flexibility in controlling the loop based on dynamic conditions, whereas the for loop provides a convenient way to
+ iterate over a known sequence without the need for explicit loop control variables.
+
+Both loops have their own use cases and can be powerful tools in programming. Choosing the appropriate loop depends on the specific requirements and
+ nature of the problem you're trying to solve.
+
+#Moral of the story : Use a for loop to loop through a list.
+                      Use a while loop to loop based on a condition.
